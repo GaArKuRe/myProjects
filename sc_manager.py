@@ -19,23 +19,23 @@ for screenshot in screenshots:
         os.replace(file_path+screenshot, sgfm_path+screenshot)
         screenshots.remove(screenshot)
     elif "amt_" in screenshot:
-        print(f"moving file {screenshot} to SGFM folder")
+        print(f"moving file {screenshot} to AMT folder")
         os.replace(file_path+screenshot, sgfm_path+screenshot)
         screenshots.remove(screenshot)
     elif "gjld_" in screenshot:
-        print(f"moving file {screenshot} to SGFM folder")
+        print(f"moving file {screenshot} to GJLD folder")
         os.replace(file_path+screenshot, sgfm_path+screenshot)
         screenshots.remove(screenshot)
     elif "ml_" in screenshot:
-        print(f"moving file {screenshot} to SGFM folder")
+        print(f"moving file {screenshot} to ML folder")
         os.replace(file_path+screenshot, sgfm_path+screenshot)
         screenshots.remove(screenshot)
     elif "mgc_" in screenshot:
-        print(f"moving file {screenshot} to SGFM folder")
+        print(f"moving file {screenshot} to MGC folder")
         os.replace(file_path+screenshot, sgfm_path+screenshot)
         screenshots.remove(screenshot)
     elif "mct_" in screenshot:
-        print(f"moving file {screenshot} to SGFM folder")
+        print(f"moving file {screenshot} to MCT folder")
         os.replace(file_path+screenshot, sgfm_path+screenshot)
         screenshots.remove(screenshot)
 
